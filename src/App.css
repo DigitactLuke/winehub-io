@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+p {
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  text-align:left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup-input {
+  height:40px;
+  position:relative;
+  top:2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.branding {
+  /*TODO: Find a branding FONT*/
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.header-main {
+  text-align: left;
+  margin-left:0px;
+  margin-right:0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subheader {
+  text-align: left;
+}
+
+.emphasis { 
+  color: #5bbf98;
+}
+
+.text-lightish {
+  color: #cdcdcd;
+}
+
+.background {
+  background-color: #ffffff;
+}
+
+.alt-background {
+  background-color:#ebfbee;
+}
+
+.wine-background {
+  background-image: url('./Assets/images/wine_background.png'); 
+}
+
+.bottles-background {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  background-image: url('./Assets/images/wine_bottles.png');
+}
+
+.standard-button {
+  background-color: #049b65;
+  border-color: #049b65;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.standard-button:hover {
+  background-color: #04734b;
+  border-color: #049b65;
+}
+
+.input-button {
+  height:40px;
+}
+
+polygon {
+  z-index:100;
+  stroke-width: 1;
+  stroke: #ebfbee;
+  fill: none;
+  pointer-events: visible;
+}
+
+polygon:hover {
+  z-index:100;
+  fill: #049b65;
+}
+
+.wine-group {
+  background-color: #ebfbee;
+}
+
+.wine-group > .row {
+  display:block;
+  overflow-x:auto;
+  white-space:nowrap;
+}
+
+.wine-group > .row > .col {
+  display:inline-block;
+
 }
