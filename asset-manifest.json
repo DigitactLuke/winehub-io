@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/winehub-io/static/css/main.d057e264.css",
-    "main.js": "/winehub-io/static/js/main.2ab7882c.js",
+    "main.js": "/winehub-io/static/js/main.89fb3cd6.js",
     "static/js/787.543298a1.chunk.js": "/winehub-io/static/js/787.543298a1.chunk.js",
     "static/media/wine_bottles.png": "/winehub-io/static/media/wine_bottles.67f984123a8a2b84f2a2.png",
     "static/media/wine_ipad.png": "/winehub-io/static/media/wine_ipad.69b91ce5e1a451707561.png",
@@ -13,11 +13,11 @@
     "static/media/logo.svg": "/winehub-io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/winehub-io/index.html",
     "main.d057e264.css.map": "/winehub-io/static/css/main.d057e264.css.map",
-    "main.2ab7882c.js.map": "/winehub-io/static/js/main.2ab7882c.js.map",
+    "main.89fb3cd6.js.map": "/winehub-io/static/js/main.89fb3cd6.js.map",
     "787.543298a1.chunk.js.map": "/winehub-io/static/js/787.543298a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d057e264.css",
-    "static/js/main.2ab7882c.js"
+    "static/js/main.89fb3cd6.js"
   ]
 }
