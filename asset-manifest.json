@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/winehub-io/static/css/main.d057e264.css",
-    "main.js": "/winehub-io/static/js/main.89fb3cd6.js",
+    "main.css": "/winehub-io/static/css/main.a21fa0f4.css",
+    "main.js": "/winehub-io/static/js/main.f915a768.js",
     "static/js/787.543298a1.chunk.js": "/winehub-io/static/js/787.543298a1.chunk.js",
     "static/media/wine_bottles.png": "/winehub-io/static/media/wine_bottles.67f984123a8a2b84f2a2.png",
+    "static/media/vineyard_background.png": "/winehub-io/static/media/vineyard_background.c696d7f0fb466acb6173.png",
     "static/media/wine_ipad.png": "/winehub-io/static/media/wine_ipad.69b91ce5e1a451707561.png",
     "static/media/wine_background.png": "/winehub-io/static/media/wine_background.95bbbe1d8bd29ebd8f1f.png",
     "static/media/cheers.png": "/winehub-io/static/media/cheers.a2e730137e06b1046cf3.png",
@@ -12,12 +13,12 @@
     "static/media/generic_red.png": "/winehub-io/static/media/generic_red.9bb8791e581cc5bef1d0.png",
     "static/media/logo.svg": "/winehub-io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/winehub-io/index.html",
-    "main.d057e264.css.map": "/winehub-io/static/css/main.d057e264.css.map",
-    "main.89fb3cd6.js.map": "/winehub-io/static/js/main.89fb3cd6.js.map",
+    "main.a21fa0f4.css.map": "/winehub-io/static/css/main.a21fa0f4.css.map",
+    "main.f915a768.js.map": "/winehub-io/static/js/main.f915a768.js.map",
     "787.543298a1.chunk.js.map": "/winehub-io/static/js/787.543298a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d057e264.css",
-    "static/js/main.89fb3cd6.js"
+    "static/css/main.a21fa0f4.css",
+    "static/js/main.f915a768.js"
   ]
 }
