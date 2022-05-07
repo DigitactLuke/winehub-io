@@ -1,14 +1,12 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
-import { Strings } from "../Assets/Strings";
-
-const lang = "en";
+import { Language, Strings } from "../Assets/Strings";
 
 export default () => {
-  const cur = Strings[lang].EcomHeader;
-  const HeaderText = cur["EcomHeaderText"];
-  const Detail = cur["EcomHeaderDetail"];
-  const CTA = cur["EcomHeaderCTA"];
+  const cur = Strings[Language].HomeHeader;
+  const HeaderText = cur["HomeHeaderText"];
+  const Detail = cur["HomeHeaderDetail"];
+  const CTA = cur["HomeHeaderCTA"];
 
   return (
     <Row className="bottles-background ps-5 m-0">

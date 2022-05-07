@@ -5,13 +5,13 @@ import { Strings } from "../Assets/Strings";
 const lang = "en";
 
 export default () => {
-  const cur = Strings[lang].EcomHeader;
-  const HeaderText = cur["EcomHeaderText"];
-  const Detail = cur["EcomHeaderDetail"];
-  const CTA = cur["EcomHeaderCTA"];
+  const cur = Strings[lang].InventoryHeader;
+  const HeaderText = cur["InventoryHeaderText"];
+  const Detail = cur["InventoryHeaderDetail"];
+  const CTA = cur["InventoryHeaderCTA"];
 
   return (
-    <Row className="bottles-background ps-5 m-0">
+    <Row className="inventory-background ps-5 m-0">
       <Row>
         <Col md={7} className="header-main">
           <h1 className="text-light pb-2">{HeaderText}</h1>

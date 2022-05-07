@@ -3,13 +3,13 @@ p {
 }
 
 h3 {
-  text-align:left;
+  text-align: left;
 }
 
 .signup-input {
-  height:40px;
-  position:relative;
-  top:2px;
+  height: 40px;
+  position: relative;
+  top: 2px;
 }
 
 .branding {
@@ -17,17 +17,21 @@ h3 {
   color: #ffffff;
 }
 
+.branding-dark {
+  color: #0c0c0c;
+}
+
 .header-main {
   text-align: left;
-  margin-left:0px;
-  margin-right:0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .subheader {
   text-align: left;
 }
 
-.emphasis { 
+.emphasis {
   color: #5bbf98;
 }
 
@@ -40,17 +44,75 @@ h3 {
 }
 
 .alt-background {
-  background-color:#ebfbee;
+  background-color: #ebfbee;
 }
 
 .wine-background {
-  background-image: url('./Assets/images/wine_background.png'); 
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("./Assets/images/wine_background.png");
+}
+
+.vineyard-background {
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("./Assets/images/vineyard_background.png");
 }
 
 .bottles-background {
-  padding-top: 160px;
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 240px;
   padding-bottom: 80px;
-  background-image: url('./Assets/images/wine_bottles.png');
+  background-image: url("./Assets/images/wine_bottles.png");
+}
+
+.inventory-background {
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 240px;
+  padding-bottom: 80px;
+  background-image: url("./Assets/images/inventory.png");
+}
+
+.rfid-background {
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 240px;
+  padding-bottom: 80px;
+  background-image: url("./Assets/images/rfidbottles.png");
+}
+
+.standard-link {
+  color: #049b65;
+  font-weight: bold;
+}
+
+.standard-link:hover {
+  color: #04734b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.circle-button {
+  margin: 6px;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #0c0c0c;
+  background-color: #ffffff;
+  color: #0c0c0c;
+}
+
+.circle-button:hover {
+  background-color: #04734b;
+  color: #ffffff;
 }
 
 .standard-button {
@@ -66,20 +128,36 @@ h3 {
 }
 
 .input-button {
-  height:40px;
+  height: 40px;
 }
 
 polygon {
-  z-index:100;
+  z-index: 100;
   stroke-width: 1;
   stroke: #ebfbee;
-  fill: none;
+  fill: #ebfbee;
   pointer-events: visible;
 }
 
 polygon:hover {
-  z-index:100;
+  z-index: 100;
   fill: #049b65;
+}
+
+.wine-red {
+  fill: #770d88;
+}
+
+.wine-white {
+  fill: #e2faab;
+}
+
+.wine-fortified {
+  fill: #951f03;
+}
+
+.wine-champagne {
+  fill: #fcffc3;
 }
 
 .wine-group {
@@ -87,12 +165,11 @@ polygon:hover {
 }
 
 .wine-group > .row {
-  display:block;
-  overflow-x:auto;
-  white-space:nowrap;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .wine-group > .row > .col {
-  display:inline-block;
-
+  display: inline-block;
 }
