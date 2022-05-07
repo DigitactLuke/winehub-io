@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/winehub-io/static/css/main.adcdd193.css",
-    "main.js": "/winehub-io/static/js/main.1b432a7d.js",
+    "main.css": "/winehub-io/static/css/main.9dc3c9b0.css",
+    "main.js": "/winehub-io/static/js/main.31f925d2.js",
     "static/js/787.543298a1.chunk.js": "/winehub-io/static/js/787.543298a1.chunk.js",
+    "static/media/inventory.png": "/winehub-io/static/media/inventory.e652860bb215ff0702e0.png",
     "static/media/wine_bottles.png": "/winehub-io/static/media/wine_bottles.67f984123a8a2b84f2a2.png",
+    "static/media/rfidbottles.png": "/winehub-io/static/media/rfidbottles.2c1a9bdf6686f6a9879d.png",
     "static/media/vineyard_background.png": "/winehub-io/static/media/vineyard_background.c696d7f0fb466acb6173.png",
     "static/media/wine_ipad.png": "/winehub-io/static/media/wine_ipad.69b91ce5e1a451707561.png",
     "static/media/wine_background.png": "/winehub-io/static/media/wine_background.95bbbe1d8bd29ebd8f1f.png",
+    "static/media/rfiddiagram.png": "/winehub-io/static/media/rfiddiagram.01d4fb0030cfef8e1abf.png",
     "static/media/world.png": "/winehub-io/static/media/world.6ab437cd733f42a81bda.png",
     "static/media/cheers.png": "/winehub-io/static/media/cheers.a2e730137e06b1046cf3.png",
     "static/media/generic_white.png": "/winehub-io/static/media/generic_white.513a71c7f433a48ff69e.png",
@@ -15,12 +18,12 @@
     "static/media/tick.png": "/winehub-io/static/media/tick.af2a744f043c0183e3bc.png",
     "static/media/logo.svg": "/winehub-io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/winehub-io/index.html",
-    "main.adcdd193.css.map": "/winehub-io/static/css/main.adcdd193.css.map",
-    "main.1b432a7d.js.map": "/winehub-io/static/js/main.1b432a7d.js.map",
+    "main.9dc3c9b0.css.map": "/winehub-io/static/css/main.9dc3c9b0.css.map",
+    "main.31f925d2.js.map": "/winehub-io/static/js/main.31f925d2.js.map",
     "787.543298a1.chunk.js.map": "/winehub-io/static/js/787.543298a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adcdd193.css",
-    "static/js/main.1b432a7d.js"
+    "static/css/main.9dc3c9b0.css",
+    "static/js/main.31f925d2.js"
   ]
 }
