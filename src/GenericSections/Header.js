@@ -10,6 +10,7 @@ export default () => {
   const Inventory = cur["Inventory"];
   const Contact = cur["Contact"];
   const RFID = cur["RFID"];
+  const AboutUs = cur["AboutUs"];
 
   return (
     <div>
@@ -20,8 +21,8 @@ export default () => {
         </Navbar.Brand>
 
         <Nav className="ms-auto pe-5">
-          <Link to="/home" className="text-light m-2">
-            {Home}
+          <Link to="/aboutus" className="text-light m-2">
+            {AboutUs}
           </Link>
           <Link to="/ecommerce" className="text-light m-2">
             {eCommerce}

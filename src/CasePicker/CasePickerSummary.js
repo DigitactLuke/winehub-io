@@ -12,16 +12,17 @@ export default ({ wineSelection }) => {
 
       {wineSelection.map((o) => {
         return (
-          o.name && (
+          o.wineObject &&
+          o.wineObject.shopify_id && (
             <Row>
               <Col>
                 {/** TODO: put an IMAGE here??? */}
                 <p>
-                  <b>{o.name}</b>
+                  <b>{o.wineObject.title}</b>
                 </p>
               </Col>
               <Col>
-                <p>£{o.price}</p>
+                <p>£{o.wineObject.price_adjustment}</p>
               </Col>
             </Row>
           )

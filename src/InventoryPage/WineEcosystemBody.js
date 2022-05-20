@@ -4,7 +4,7 @@ import { Language, Strings } from "../Assets/Strings";
 import allocations from "../Assets/icons/allocations.png";
 import customisation from "../Assets/icons/customisation.png";
 import loyalty from "../Assets/icons/loyalty.png";
-import world from '../Assets/images/world.png'
+import world from "../Assets/images/world.png";
 
 export default () => {
   const cur = Strings[Language].WineEcosystem;
@@ -43,7 +43,7 @@ export default () => {
               <h4 className="emphasis py-3"> {NicheSubheader} </h4>
               <p className="pb-3"> {NicheDetail} </p>
 
-              <img src={world} className='w-100' />
+              <img src={world} className="w-100" />
             </Stack>
           </Col>
         </Row>

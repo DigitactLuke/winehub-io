@@ -62,9 +62,9 @@ export default ({
       <ModalBody>
         <Container className="wine-group">
           <Row>
-            {selectedSlot && selectedSlot.name !== null && (
+            {selectedSlot && selectedSlot.wineObject !== null && (
               <p>
-                <b>Current selection: {selectedSlot.name}</b>
+                <b>Current selection: {selectedSlot.wineObject.vintage} {selectedSlot.wineObject.title}</b>
               </p>
             )}
 
@@ -74,7 +74,7 @@ export default ({
               typeLimits={typeLimits}
               typeCounts={typeCounts}
               currentSlots={currentSlots}
-              maxSlots={maxSlots}              
+              maxSlots={maxSlots}
             />
           </Row>
 

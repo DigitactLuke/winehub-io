@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Stack } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 import { Language, Strings } from "../Assets/Strings";
 import allocations from "../Assets/icons/allocations.png";
 import loyalty from "../Assets/icons/loyalty.png";
@@ -25,7 +25,7 @@ export default () => {
           <p>{SupplyChainDetail}</p>
         </Col>
         <Col md={5}>
-            <Button className='standard-button'>{SupplyChainCTA}</Button>
+          <Button className="standard-button">{SupplyChainCTA}</Button>
         </Col>
 
         <Row className="text-left">
@@ -42,12 +42,11 @@ export default () => {
             </Stack>
           </Col>
           <Col md={3} className="m-2 p-2">
-          <Stack>
+            <Stack>
               <img align="left" src={loyalty} width={40} height={40} />
               <h4 className="mx-2 py-3"> {CostDetail} </h4>
             </Stack>
           </Col>
-
         </Row>
       </Row>
     </Row>

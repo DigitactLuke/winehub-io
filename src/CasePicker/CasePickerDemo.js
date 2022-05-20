@@ -175,14 +175,17 @@ export default ({
             const s = ps;
             let index = count - 1;
             ps = "";
-            const colour =
-              wineSelection && wineSelection[index]
-                ? wineSelection[index].colour
-                : "#ffffff";
+            const colour = wineSelection && wineSelection[index] && wineSelection[index].wineObject  ? '#770d88' : "#ffffff";
+            // wineSelection && wineSelection[index]
+            //   ? wineSelection[index].wineObject.colour
+            //   : "#ffffff";
 
             return (
               <>
-                {wineSelection[count - 1].name !== null ? (
+                {wineSelection &&
+                wineSelection[count - 1] &&
+                wineSelection[count - 1].wineObject &&
+                wineSelection[count - 1].wineObject.shopify_id ? (
                   <polygon
                     points={s}
                     style={{ fill: colour }}
@@ -205,10 +208,30 @@ export default ({
           }
         })}
 
-        <line strokeWidth="1" stroke="#04734b" x1={p[0].x} y1={p[0].y} x2={p[1].x} y2={p[1].y} />
-        <line strokeWidth="1" stroke="#04734b" x1={p[2].x} y1={p[2].y} x2={p[3].x} y2={p[3].y} />
-        <line strokeWidth="1" stroke="#04734b" x1={p[4].x} y1={p[4].y} x2={p[5].x} y2={p[5].y} />
-
+        <line
+          strokeWidth="1"
+          stroke="#04734b"
+          x1={p[0].x}
+          y1={p[0].y}
+          x2={p[1].x}
+          y2={p[1].y}
+        />
+        <line
+          strokeWidth="1"
+          stroke="#04734b"
+          x1={p[2].x}
+          y1={p[2].y}
+          x2={p[3].x}
+          y2={p[3].y}
+        />
+        <line
+          strokeWidth="1"
+          stroke="#04734b"
+          x1={p[4].x}
+          y1={p[4].y}
+          x2={p[5].x}
+          y2={p[5].y}
+        />
       </svg>
     );
   };

@@ -6,6 +6,7 @@ import EcomHeader from "./EcomHeader";
 import ReachBody from "./ReachBody";
 import FeaturesCarousel from "../GenericSections/FeaturesCarousel";
 import Signup from "../GenericSections/Signup";
+import SideBySideDisplay from '../SideBySidePicker/SideBySideDisplay';
 
 export default () => {
   return (
@@ -14,11 +15,11 @@ export default () => {
 
       <EcomHeader />
 
-      <ReachBody />
+      <CasePickerBody />
+
+      <SideBySideDisplay />
 
       <FeaturesCarousel />
-
-      <CasePickerBody />
 
       <Signup />
     </div>

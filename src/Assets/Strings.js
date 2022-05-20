@@ -6,6 +6,7 @@ export const Strings = {
   en: {
     Menu: {
       Home: "Home",
+      AboutUs: "About Us",
       eCommerce: "eCommerce",
       Inventory: "Inventory",
       RFID: "RFID",
@@ -35,6 +36,15 @@ export const Strings = {
         "At the start of 2021 we released version 1.0 of WineHub, our first venture into the world of wine. In a short space of time we have created and deployed a fully operational, wine-centric platform applicable to vineyards, wholesalers, wine retailers, cellar doors, bonded warehouses, and online merchants. We are at the beginning of our journey in wine technology, and can't wait to share our developments as they unfold.",
       OurStoryLearnMore: "Learn more about us",
       OurStoryFounder: "Founder",
+    },
+
+    OurVision: {
+      VisionEmphasis: "Our vision",
+      VisionHeader: "and mission",
+      VisionSubheader:
+        "At the start of 2021 we released the beta version of WineHub, our working title for the eGRAB™ wine module.",
+      VisionDetail:
+        "In a short space of time we have created and deployed a fully operational, wine centric platform applicable to vineyards and wholesalers, wine retailers, cellar doors, bonded warehouses and online merchants. We are at the beginning of our journey in wine technology, and can’t wait to share our developments as they unfold. ",
     },
 
     Integrations: {
@@ -130,9 +140,11 @@ export const Strings = {
     },
 
     InventoryHeader: {
-      InventoryHeaderText: 'Warehouse to Website inventory management with global reach',
-      InventoryHeaderDetail: 'Seamless eCommerce backed by a fully integrated inventory management tool that brins the benefits of RFID technology to the wine industry',
-      InventoryHeaderCTA: 'Get Started',
+      InventoryHeaderText:
+        "Warehouse to Website inventory management with global reach",
+      InventoryHeaderDetail:
+        "Seamless eCommerce backed by a fully integrated inventory management tool that brins the benefits of RFID technology to the wine industry",
+      InventoryHeaderCTA: "Get Started",
     },
 
     WineEcosystem: {
@@ -150,27 +162,45 @@ export const Strings = {
     },
 
     RFIDHeader: {
-      RFIDHeaderText: 'Use barcodes or upgrade to RFID labels & count hundreds of items in minutes',
-      RFIDHeaderDetail: 'Implement GTIN standard barcodes or upgrade to RFID smart labels and shave hours off your warehouse management tasks',
-      RFIDHeaderCTA: 'Get Started',
+      RFIDHeaderText:
+        "Use barcodes or upgrade to RFID labels & count hundreds of items in minutes",
+      RFIDHeaderDetail:
+        "Implement GTIN standard barcodes or upgrade to RFID smart labels and shave hours off your warehouse management tasks",
+      RFIDHeaderCTA: "Get Started",
     },
 
     SupplyChain: {
       SupplyChainEmphasis: "The digitised supply chain",
-      SupplyChainHeader:"saving time and money",
-      SupplyChainDetail:"The barcode has been the cornerstone of how products are catalogued and managed since the 1950\'s, but swathes of global supply chains are shifting to a form of \'wireless barcode\' called Radio Frequency Identification (RFID). These smart labels add significant real-time speed and accuracy gains to inventory management processes.",
+      SupplyChainHeader: "saving time and money",
+      SupplyChainDetail:
+        "The barcode has been the cornerstone of how products are catalogued and managed since the 1950's, but swathes of global supply chains are shifting to a form of 'wireless barcode' called Radio Frequency Identification (RFID). These smart labels add significant real-time speed and accuracy gains to inventory management processes.",
       SupplyChainCTA: "Learn more about RFID",
-      SpeedDetail:"Scanning speed: Up to 20,000 items / hour",
-      TimeDetail:"Scanning average store: 20 minutes",
-      CostDetail: "Labour cost to count 20,000 items: £15"
+      SpeedDetail: "Scanning speed: Up to 20,000 items / hour",
+      TimeDetail: "Scanning average store: 20 minutes",
+      CostDetail: "Labour cost to count 20,000 items: £15",
     },
 
     RFIDInfo: {
-      RFIDHeaderPre: 'What is RFID and',
-      RFIDEmphasis: 'how is it different',
-      RFIDHeaderPost: 'from the barcode?',
-      RFIDBody: 'Radio-frequency identification (RFID) is at the core of our innovation strategy, and is transforming the way businesses manage their assets. RFID tags permit the wireless transmission of data using electromagnetic pulses obtained from trackable tags that are attached to inventory. Unlike barcodes, they do not require line of sight reading and can be counted at a rate of hundreds per minute.',
+      RFIDHeaderPre: "What is RFID and",
+      RFIDEmphasis: "how is it different",
+      RFIDHeaderPost: "from the barcode?",
+      RFIDBody:
+        "Radio-frequency identification (RFID) is at the core of our innovation strategy, and is transforming the way businesses manage their assets. RFID tags permit the wireless transmission of data using electromagnetic pulses obtained from trackable tags that are attached to inventory. Unlike barcodes, they do not require line of sight reading and can be counted at a rate of hundreds per minute.",
+    },
+    
+    GlobalPicker: {
+      SearchPlaceholder: 'wine type/year',
+      SearchCTA: 'SEARCH',
+      SearchSort: 'Sort by',
+      SearchFilter: 'Filter',
+      Default: 'Case defaults',
+      Stock: 'Selections from stock',
     },
 
+    CaseItem: {
+      Quantity: 'Qty',
+      Required: 'Required',
+      Limit: 'Limit of'
+    }
   },
 };
